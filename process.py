@@ -5,7 +5,6 @@ import dateutil.parser
 from datetime import tzinfo, timedelta, date
 #day (top to bottom = today to 1 month ago), open, high, low, close, volume
 from bs4 import BeautifulSoup
-from HTMLParser import HTMLParser
 
 #declare constants
 url = 'http://ws.nasdaqdod.com/v1/NASDAQAnalytics.asmx/GetSummarizedTrades'
